@@ -23,7 +23,7 @@ const App = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/gaming-hub">
         <Box sx={{ 
           minHeight: '100vh',
           display: 'flex',
